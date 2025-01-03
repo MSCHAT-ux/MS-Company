@@ -173,3 +173,106 @@
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS CHAT - Moderator Agent Recruitment</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .section {
+            padding: 30px;
+            margin: 20px;
+        }
+        h2 {
+            font-size: 28px;
+        }
+        p {
+            font-size: 16px;
+        }
+        footer {
+            background-color: #222;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer p {
+            font-size: 18px;
+        }
+        .contact {
+            margin-top: 20px;
+        }
+        .contact input,
+        .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background-color: #333;
+            color: #fff;
+        }
+        .contact button {
+            padding: 10px 20px;
+            background-color: #444;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>MS CHAT - Moderator Agent Recruitment</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <section class="section" id="about">
+        <h2>About Us</h2>
+        <p>MS CHAT is an online company that recruits moderator agents from all over the world. We offer competitive rates and flexible working hours, so you can work whenever you want.</p>
+        <p>Payment is made monthly for some projects and twice a month for others. We also offer free training for newcomers.</p>
+        <p>Applicants must be over 19 years old. We ensure your identity stays protected while you work anonymously with us.</p>
+    </section>
+
+    <!-- Footer Section with Email and Contact Form -->
+    <footer>
+        <p>Contact us: <a href="mailto:mschatworld.nl@gmail.com" style="color: white; text-decoration: none;">mschatworld.nl@gmail.com</a></p>
+
+        <div class="contact">
+            <h2>Have a question? Send us a message!</h2>
+            <form action="mailto:mschatworld.nl@gmail.com" method="POST" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </footer>
+
+</body>
+</html>
